@@ -42,22 +42,6 @@ struct Home: View {
                     }
                 }
                 .listStyle(.inset)
-//                ScrollView(.vertical, showsIndicators: true, content: {
-//                    LazyVStack(alignment: .leading, spacing: 20) {
-//                        ForEach(results) { task in
-//                            VStack(alignment: .leading, spacing: 5) {
-//                                Text(task.task_name ?? "")
-//                                    .font(.title)
-//                                    .foregroundColor(.purple)
-//                                Text(task.date ?? Date(), style: .date)
-//                                    .fontWeight(.bold)
-//                                    .font(.system(size: 15))
-//                                    .foregroundColor(.gray)
-//                                Divider()
-//                            }
-//                        }
-//                    }
-//                })
             }
             
             Button(action: {
